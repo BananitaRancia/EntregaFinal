@@ -32,3 +32,22 @@ export const data  = [
         price: 250,
     },
 ]
+
+
+export const getProducts = (  categoryName) => {
+    console.log(categoryName)
+        return new Promise((res , rej) => {
+            setTimeout(() => {
+                if (categoryName){
+                    const filterData = data.filter((item) =>{
+                        return item.category === categoryName;
+                    });
+                    console.log(filterData);
+                    res(filterData);
+                } else {
+                    res(data);
+                }
+            }, 1000);
+        })
+    }
+    
