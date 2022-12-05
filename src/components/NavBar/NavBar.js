@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className='navbar-container'>
          
         <div>
-            <img className='logo_header' src = {steam_verde}/>
+            <img className='logo_header' alt={steam_verde} src = {steam_verde}/>
         </div>
         
         <h1 className='titulo-nav'>Steam Verde</h1> 

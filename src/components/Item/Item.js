@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import State from '../state/state';
+// import State from '../state/state';
 import './Item.css'
 
 const Item = ({producto}) => {

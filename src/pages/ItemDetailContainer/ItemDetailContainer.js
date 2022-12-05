@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
   const getProducts = (id) => {
     return new Promise ((resolve)=>{
       setTimeout(()=>{
-        resolve(data.find((producto) => producto.id == Number(id) ))
+        resolve(data.find((producto) => producto.id === Number(id) ))
       },2000)
     })
   };
