@@ -3,7 +3,7 @@ import './Item.css'
 
 const Item = ({producto}) => {
   return (
-  <Link className='link' to={`item/${producto.id}`}>  
+  <Link to={`item/${producto.id}`} className='link' >  
     <div className='caja-juegos'>
         
       <div className="productos">
@@ -20,4 +20,4 @@ const Item = ({producto}) => {
   )
 };
 
-export default Item
+export default Item;
