@@ -1,3 +1,10 @@
+# Tienda de venta de video juegos realizada con React.js
+
+Este proyecto es una idea de e-commerce (Steam) de ventas de video juegos donde pueden agregar varios al carrito, y crear una orden para poder realizar la compra.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

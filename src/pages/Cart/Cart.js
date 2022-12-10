@@ -62,27 +62,28 @@ const Cart = () => {
     
     
     <div className="cartPrincipal"> 
-      {cart.map((producto) => {
-        return (
-        
-        
+      {cart.map((producto) => 
+         (
+            
         <div key={producto.id} className="cart" >
                     
-         <div className="subCart">
+          <div className="subCart">
           <img alt={producto.title} src={`/images/${producto.image}`} width={'300px'} />
           
-          <h2>{producto.title}</h2>
-          <h2>{producto.price}</h2>
-          <h2>{producto.description}</h2>
-          <h2>{producto.quantity}</h2>
-         </div>
+            <h2>{producto.title}</h2>
+            <h2>${producto.price}</h2>
+            <h2>{producto.description}</h2>
+            <h2>Cantidad: {producto.quantity}</h2>
+           </div>
                
         </div>
       )
 
-      })}
+      )}
       
-      <h2>Formulario</h2>
+      
+      
+      <p className='formularioTitulo'>FORMULARIO DE COMPRA</p>
 
       <div className='formulario'>
       <input className='miniForm' name='name' type="text" placeholder="Nombre" value={formValues.name} onChange={handleInputChange} />
@@ -92,9 +93,8 @@ const Cart = () => {
       
       <div className="totalCart">
       <h1>Total: {total} </h1>
-      <button onClick={createOrder}>Crear orden</button>
+      <button onClick={createOrder}>Crear Orden De Compra</button>
       </div>
-
     </div>
   )
 }
