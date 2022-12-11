@@ -4,7 +4,7 @@ Este proyecto es una idea de e-commerce (Steam) de ventas de video juegos donde 
 
 https://gfycat.com/gaseoushighlevelharrierhawk
 
-![image](https://gfycat.com/gaseoushighlevelharrierhawk)
+![image](https://i.ibb.co/2cqSnMp/React-App.gif)
 
 
 # Getting Started with Create React App
